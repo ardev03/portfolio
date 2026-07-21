@@ -13,7 +13,7 @@ import { FaArrowRight,FaHtml5, FaGithub } from "react-icons/fa6";
 
     <div className='w-full min-h-screen bg-cover bg-center bg-no-repeat'
       style={{ backgroundImage: `url(${bgImage})`}}>
-      <div className="max-w-7xl mx-auto mt-16">
+      <div className="max-w-7xl mx-auto py-18">
 
     <div className="text-center mb-16">
 

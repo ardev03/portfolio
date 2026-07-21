@@ -27,7 +27,7 @@ const  HomePageProject = () => {
       key={project.name}
       className="bg-zinc-900/70 backdrop-blur-lg border border-zinc-800 rounded-3xl p-6 hover:border-blue-500 hover:-translate-y-2 transition-all duration-300"
     >
-      <div className="h-48 rounded-2xl bg-gradient-to-br from-blue-600 to-cyan-500 flex items-center justify-center text-white text-2xl font-bold">
+      <div className="h-48 rounded-2xl bg-gradient-to-br  from-blue-600 to-cyan-500 flex items-center justify-center text-white text-2xl font-bold">
         Coming Soon
       </div>
 

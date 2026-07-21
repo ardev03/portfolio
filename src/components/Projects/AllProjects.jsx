@@ -53,7 +53,7 @@ function AllProjects({Logo}) {
 
       <button
         disabled
-        className="mt-8 w-full py-3 rounded-xl bg-zinc-800 text-zinc-400 cursor-not-allowed"
+        className="mt-8 w-full py-3 rounded-xl bg-gradient-to-br  bg-zinc-800 text-zinc-400 cursor-not-allowed"
       >
         Coming Soon
       </button>

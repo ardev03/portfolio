@@ -27,32 +27,32 @@ const DataListProvider = ({ children }) => {
       name: "Tailwind CSS",
       logo: SiTailwindcss,
       color: "text-cyan-400",
-      level:60,
+      level:75,
     },
     {
       name: "JavaScript",
       logo: AiOutlineJavaScript,
       color: "text-yellow-400",
-      level:75,
+      level:80,
     },
     {
       name: "React",
       logo: GrReactjs,
       color: "text-blue-400",
-      level:60,
+      level:80,
     },
     {
       name: "Git",
       logo: FaGitAlt,
       color: "text-orange-500",
-      level:50,
+      level:70,
 
     },
     {
       name: "GitHub",
       logo: FaGithub,
       color: "text-white",
-      level:65,
+      level:75,
     },
     {
       name: "Vite",
