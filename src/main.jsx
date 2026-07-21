@@ -12,29 +12,35 @@ import AllSkills from './components/skills/AllSkills.jsx';
 import AboutAllContent from './components/About/AboutAllContent.jsx';
 
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+[
   {
-    path:"/",
-    element:<App/>,
-
-    children:[
-        {
+    path: "/",
+    element: <App />,
+    children: [
+      {
         index: true,
         element: <HomeContent />,
       },
       {
-         path:"AllProjects", element:<AllProjects/>,
-        
+        path: "AllProjects",
+        element: <AllProjects />,
       },
       {
-        path:"AllSkills", element:<AllSkills/>,
+        path: "AllSkills",
+        element: <AllSkills />,
       },
       {
-        path:"About", element:<AboutAllContent/>,
+        path: "About",
+        element: <AboutAllContent />,
       },
-    ]
-  }
-])
+    ],
+  },
+],
+{
+  basename: "/portfolio",
+}
+);
 createRoot(document.getElementById('root')).render(
   <StrictMode>
    <RouterProvider router={router} />
