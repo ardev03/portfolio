@@ -4,6 +4,7 @@ import FlowerWebsite from '../../image/Flower-website.png'
 import Game from '../../image/Game.png'
 import myntra from '../../image/myntra-website-clone.png'
 import todoapp from '../../image/TodoApp.png'
+import currercyconvertor from "../../image/currancyconvertor.png"
 import { BsJavascript } from 'react-icons/bs'
 
  function MyAllProjectes() {
@@ -23,7 +24,22 @@ import { BsJavascript } from 'react-icons/bs'
       boodstreo: "BoodStrap"
     },
   },
-
+    {
+    name: "currercyconvertor",
+    message:
+      "A responsive currency converter built with React.js and the Exchange Rate API. It provides real-time currency conversion with a clean, intuitive interface and fast performance.",
+    image: currercyconvertor,
+    link: "https://ardev03.github.io/currencyConvertor/",
+    skills: {
+      html: "HTML",
+      css: "CSS",
+      tailwind: "Tailwind CSS",
+      javascript: "JavaScript",
+      react:"React",
+      api:"Rest API",
+      vite: "Vite"
+    },
+  },
   {
     name: "Myntra Clone",
     message:
